@@ -3,15 +3,15 @@
 
 using namespace std;
 
-int main()
+int main(void)
 {
 	int x, tabla[10];
 	int suma, resta, mult, division;
 
 	for (x = 0; x < 10; x++)
 	{
-		cout << "------------------------------" << endl;
-		cout << "Introduce un numero: ";
+		cout << "---------------------------" << endl;
+		cout << "| Introduce un numero: ";
 		cin >> tabla[x];
 	}
 
@@ -28,13 +28,14 @@ int main()
 		division = division / tabla[x];
 	}
 
-	cout << "La suma es: " << suma << endl;
-	cout << "------------------------------" << endl;
-	cout << "La resta es: " << resta << endl;
-	cout << "------------------------------" << endl;
-	cout << " La multiplicacion es: " << mult << endl;
-	cout << "------------------------------" << endl;
-	cout << "La division es: " << division << endl;
+	cout << "------------------------------------------------" << endl;
+	cout << "L a   s u m a   e s: " << suma << endl;
+	cout << "------------------------------------------------" << endl;
+	cout << "L a   r e s t a   e s: " << resta << endl;
+	cout << "------------------------------------------------" << endl;
+	cout << " L a   m u l t i p l i c a c i o n   e s: " << mult << endl;
+	cout << "------------------------------------------------" << endl;
+	cout << "L a   d i v i s i o n   e s: " << division << endl;
 
 	system("pause");
 	return 0;
